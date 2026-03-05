@@ -67,12 +67,14 @@ English：[`README_EN.md`](./README_EN.md)
 3. 部署完成后，同一页面打开workers设置，将**Git存储库**断开连接
 4. 同一位置，**Git存储库**链接至第一步Fork的仓库
 
-> [!NOTE] R2 vs KV
+> [!NOTE] 
+> R2 vs KV
 >- R2：需绑定银行卡；**单个附件/Send上限 100MB**（代码限制，可自行修改）；**总量 10GB 免费**
 >- KV：无需绑卡；**单个附件/Send 文件上限 25 MiB**（cloudflare限制，不可修改）；**总量 1GB 免费**
 
 
-> [!TIP] 同步上游（更新仓库）：
+> [!TIP] 
+> 同步上游（更新仓库）：
 >- 手动：Github打开你Fork的私人仓库，看到顶部同步提示时，点击 “Sync fork”。
 >- 自动：进入你的 Fork 仓库 → Actions，点击 “I understand my workflows, go ahead and enable them”，每天凌晨三点自动同步至上游
 

@@ -67,11 +67,13 @@
 3. After deployment, open the Workers settings on the same page and disconnect the **Git repository**.
 4. From the same location, reconnect the **Git repository** to the fork you created in step 1.
 
-> [!NOTE] R2 vs KV
+> [!NOTE] 
+> R2 vs KV
 >- R2: typically requires a payment method; **single attachment/Send file limit is 100 MB** (**project-level limit, editable in code**); **10 GB free storage included**.
 >- KV: no card required; **single attachment/Send file limit is 25 MiB** (**Cloudflare platform limit, not editable**); **1 GB free storage included**.
 
-> [!TIP] Sync upstream (keep your fork updated):
+> [!TIP] 
+> Sync upstream (keep your fork updated):
 >- Manual: open your fork on GitHub and click **Sync fork** when prompted.
 >- Automatic: in your fork, go to **Actions**, click "I understand my workflows, go ahead and enable them". It will auto-sync from upstream daily at 3 AM.
 
